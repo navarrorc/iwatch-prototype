@@ -2,8 +2,8 @@
 require('../sass/styles.scss');
 
 import {App} from './components/App';
-import {MyService} from './services/Service';
-
+// import {MyService} from './services/Service';
+//
 var app = new App(null)
 app.show();
 

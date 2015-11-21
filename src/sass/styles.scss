@@ -1,3 +1,67 @@
-h1 {
-  color: rgb(0, 0, 0);
+@import "compass/reset";
+
+#main-screen {
+  background-color: #000;
+  width: 544px;
+  height: 680px;
+  color: #fff;
+  font-family: sans-serif;
+  border-radius: 2em;
+  //border: 5px solid red;
+  padding: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
+  #container {
+    display: flex;
+    color: #fff;
+    font-size: 3em;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    justify-content: center;
+
+  }
+    #container-top {
+      display: flex;
+      flex-direction: row;
+      //align-items: stretch;
+      justify-content: space-between;
+      color:rgb(122, 115, 124);
+
+      #container-top-title {
+        // background-color: rgb(22, 121, 184);
+        // border-radius: 15px;
+        // height: 60px;
+        // margin: 3px 0;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        font-size: .5em;
+      }
+      #container-top-clock {
+        //align-items: flex-end;
+        //justify-content: flex-end;
+        //float:right;
+        text-align: right;
+        font-size: .5em;
+      }
+    }
+    #container-center {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      #container-center-mealSchedule-btn {
+        background-color: rgba(135, 148, 133, 0.4);
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        margin: 3px 10px;
+        border: 0;
+        font-size: 1em;
+        cursor: pointer;
+        color: #fff;
+        //align-self: center;
+      }
+    }
